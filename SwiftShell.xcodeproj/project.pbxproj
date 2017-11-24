@@ -53,6 +53,7 @@
 
 /* Begin PBXFileReference section */
 		BA50D28D1E8DB923002BA4A5 /* LinuxMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinuxMain.swift; sourceTree = "<group>"; };
+		EE12CD871FC85A5900EEB19E /* SwiftShell.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = SwiftShell.podspec; sourceTree = "<group>"; };
 		OBJ_10 /* Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = Command.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		OBJ_11 /* Context.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = Context.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		OBJ_12 /* FileHandle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = FileHandle.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -187,6 +188,7 @@
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
+				EE12CD871FC85A5900EEB19E /* SwiftShell.podspec */,
 				OBJ_7 /* Sources */,
 				OBJ_20 /* Tests */,
 				OBJ_33 /* Misc */,
