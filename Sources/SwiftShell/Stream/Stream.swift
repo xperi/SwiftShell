@@ -15,7 +15,7 @@ extension FileHandle {
 
 		guard data.count > 0 else { return nil }
 		guard let result = String(data: data, encoding: encoding) else {
-			fatalError("Could not convert binary data to text.")
+			return ""
 		}
 
 		return result
@@ -27,7 +27,7 @@ extension FileHandle {
 		let data = self.readDataToEndOfFile()
 
 		guard let result = String(data: data, encoding: encoding) else {
-			fatalError("Could not convert binary data to text.")
+			return ""
 		}
 
 		return result
@@ -40,7 +40,7 @@ extension FileHandle {
 			guard !string.isEmpty else { return }
 		#endif
 		guard let data = string.data(using: encoding, allowLossyConversion: false) else {
-			fatalError("Could not convert text to binary data.")
+			return
 		}
 		self.write(data)
 	}
